@@ -1,3 +1,14 @@
 [06:53:55] [Server thread/INFO]: Unknown or incomplete command, see below for error
 [06:53:55] [Server thread/INFO]: <--[HERE]
 [06:54:05] [Server thread/INFO]: Made nagibator1233 no longer a server operator
+[13:41:29] [Server thread/INFO]: Stopping the server
+[13:41:29] [Server thread/INFO]: Stopping server
+[13:41:29] [Server thread/INFO]: Saving players
+[13:41:29] [Server thread/INFO]: Saving worlds
+[13:41:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:41:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:41:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:41:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:41:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:41:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:41:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
