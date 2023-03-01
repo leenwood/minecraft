@@ -1,196 +1,367 @@
-[13:03:19] [ServerMain/INFO]: Building unoptimized datafixer
-[13:03:21] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:03:24] [ServerMain/INFO]: Loaded 7 recipes
-[13:03:25] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[13:03:25] [Server thread/INFO]: Loading properties
-[13:03:25] [Server thread/INFO]: This server is running CraftBukkit version 3657-Spigot-19641c7-4a929b5 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT)
-[13:03:25] [Server thread/INFO]: Debug logging is disabled
-[13:03:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:03:25] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:03:25] [Server thread/INFO]: Default game type: SURVIVAL
-[13:03:25] [Server thread/INFO]: Generating keypair
-[13:03:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:03:26] [Server thread/INFO]: Using epoll channel type
-[13:03:26] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[13:03:33] [Server thread/WARN]: Legacy plugin AuthMe v5.4.0-b1877 does not specify an api-version.
-[13:03:34] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.4.0-b1877
-[13:03:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:03:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:03:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:03:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:03:34] [Server thread/INFO]: Preparing level "world"
-[13:03:34] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:03:34] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:03:34] [Server thread/INFO]: Mob Spawn Range: 6
-[13:03:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:03:34] [Server thread/INFO]: Max TNT Explosions: 100
-[13:03:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:03:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[13:03:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:03:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[13:03:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:03:34] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:03:34] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:03:34] [Server thread/INFO]: View Distance: 10
-[13:03:34] [Server thread/INFO]: Simulation Distance: 10
-[13:03:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:03:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:03:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:03:34] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[13:03:34] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:03:34] [Server thread/INFO]: Mob Spawn Range: 6
-[13:03:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[13:03:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:03:34] [Server thread/INFO]: Max TNT Explosions: 100
-[13:03:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:03:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[13:03:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:03:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[13:03:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:03:34] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:03:34] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:03:34] [Server thread/INFO]: View Distance: 10
-[13:03:34] [Server thread/INFO]: Simulation Distance: 10
-[13:03:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:03:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:03:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:03:36] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[13:03:36] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:03:36] [Server thread/INFO]: Mob Spawn Range: 6
-[13:03:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[13:03:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:03:36] [Server thread/INFO]: Max TNT Explosions: 100
-[13:03:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:03:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[13:03:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:03:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[13:03:36] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:03:36] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:03:36] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:03:36] [Server thread/INFO]: View Distance: 10
-[13:03:36] [Server thread/INFO]: Simulation Distance: 10
-[13:03:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:03:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:03:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:03:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:03:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:03:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:03:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:03:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:03:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:03:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:03:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:03:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:03:42] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[13:03:42] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[13:03:42] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:03:42] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:03:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:03:43] [Worker-Main-1/INFO]: Preparing spawn area: 9%
-[13:03:43] [Worker-Main-6/INFO]: Preparing spawn area: 33%
-[13:03:44] [Server thread/INFO]: Time elapsed: 7497 ms
-[13:03:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:03:48] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:03:48] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:03:48] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:03:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:03:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:03:48] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:03:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:03:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:03:48] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[13:03:49] [Worker-Main-6/INFO]: Preparing spawn area: 31%
-[13:03:49] [Worker-Main-2/INFO]: Preparing spawn area: 72%
-[13:03:49] [Server thread/INFO]: Time elapsed: 5340 ms
-[13:03:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:03:52] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:03:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:03:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:03:52] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[13:03:52] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:03:52] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[13:03:52] [Worker-Main-5/INFO]: Preparing spawn area: 15%
-[13:03:53] [Worker-Main-7/INFO]: Preparing spawn area: 69%
-[13:03:53] [Server thread/INFO]: Time elapsed: 3829 ms
-[13:03:53] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.4.0-b1877
-[13:03:54] [Server thread/INFO]: [AuthMe] Created column 'regdate' and set the current timestamp, 1677485034184, to all 0 rows
-[13:03:54] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[13:03:54] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
-[13:03:54] [Server thread/WARN]: [AuthMe] Aborting initialization of AuthMe: [InjectorReflectionException]: Could not invoke constructor of class 'class fr.xephi.authme.command.CommandHandler'
-[13:03:54] [Server thread/WARN]: [AuthMe] THE SERVER IS GOING TO SHUT DOWN AS DEFINED IN THE CONFIGURATION!
-[13:03:54] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[13:03:54] [Server thread/INFO]: [AuthMe] AuthMe 5.4.0-b1877 disabled!
-[13:03:54] [Thread-10/WARN]: [AuthMe] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
-[13:03:54] [Thread-10/WARN]: Exception in thread "Thread-10" java.lang.NullPointerException: Cannot invoke "java.io.FileWriter.write(String)" because "fr.xephi.authme.ConsoleLogger.fileWriter" is null
-[13:03:54] [Thread-10/WARN]: 	at fr.xephi.authme.ConsoleLogger.writeLog(ConsoleLogger.java:240)
-[13:03:54] [Thread-10/WARN]: 	at fr.xephi.authme.ConsoleLogger.warning(ConsoleLogger.java:93)
-[13:03:54] [Thread-10/WARN]: 	at fr.xephi.authme.ConsoleLogger.logException(ConsoleLogger.java:104)
-[13:03:54] [Thread-10/WARN]: 	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:108)
-[13:03:54] [Thread-10/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1589)
-[13:03:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:03:54] [Server thread/INFO]: Done (20.368s)! For help, type "help"
-[13:03:54] [Server thread/INFO]: Stopping server
-[13:03:54] [Server thread/INFO]: Saving players
-[13:03:54] [Server thread/INFO]: Saving worlds
-[13:03:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:03:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[13:03:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[13:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:53:31] [User Authenticator #11/INFO]: UUID of player nagibator1233 is fa644ef3-c244-3b7c-a967-c5ffd116fe8a
+[04:53:31] [Server thread/INFO]: nagibator1233 joined the game
+[04:53:31] [Server thread/INFO]: nagibator1233[/92.248.201.84:62555] logged in with entity id 105191 at ([world]-790.0491841032326, 64.0, 1237.6365115876656)
+[04:53:45] [Craft Scheduler Thread - 440/INFO]: [AuthMe] nagibator1233 logged in 92.248.201.84
+[05:36:20] [Server thread/INFO]: nagibator1233 lost connection: Disconnected
+[05:36:20] [Server thread/INFO]: nagibator1233 left the game
+[08:54:58] [User Authenticator #12/INFO]: UUID of player nagibator1233 is fa644ef3-c244-3b7c-a967-c5ffd116fe8a
+[08:54:58] [Server thread/INFO]: nagibator1233 joined the game
+[08:54:58] [Server thread/INFO]: nagibator1233[/92.248.201.84:50658] logged in with entity id 113625 at ([world]-770.3448331288704, 63.5, 1252.7750686580162)
+[08:55:05] [Craft Scheduler Thread - 489/INFO]: [AuthMe] nagibator1233 logged in 92.248.201.84
+[09:21:47] [Server thread/INFO]: nagibator1233 has made the advancement [Best Friends Forever]
+[09:25:10] [Server thread/INFO]: nagibator1233 drowned
+[09:39:12] [Server thread/INFO]: nagibator1233 lost connection: Disconnected
+[09:39:12] [Server thread/INFO]: nagibator1233 left the game
+[10:29:25] [User Authenticator #13/INFO]: UUID of player nagibator1233 is fa644ef3-c244-3b7c-a967-c5ffd116fe8a
+[10:29:25] [Server thread/INFO]: nagibator1233 joined the game
+[10:29:25] [Server thread/INFO]: nagibator1233[/92.248.201.84:59411] logged in with entity id 122867 at ([world]-799.6972207629701, 71.0, 1265.8543201740908)
+[10:29:31] [Craft Scheduler Thread - 509/INFO]: [AuthMe] nagibator1233 logged in 92.248.201.84
+[10:55:25] [Server thread/INFO]: /178.218.103.183:17049 lost connection: Internal Exception: java.lang.IllegalStateException: Invalid characters in username
+[10:56:07] [User Authenticator #14/INFO]: UUID of player ilyasha is 192355e3-f0a1-377e-9eaf-b02b35bc6a7c
+[10:56:07] [Server thread/INFO]: ilyasha joined the game
+[10:56:07] [Server thread/INFO]: ilyasha[/178.218.103.183:17076] logged in with entity id 132300 at ([world]25.5, 71.0, 70.5)
+[10:56:26] [Server thread/INFO]: [AuthMe] ilyasha registered 178.218.103.183
+[10:56:26] [Craft Scheduler Thread - 514/INFO]: [AuthMe] ilyasha logged in 178.218.103.183
+[10:56:41] [Server thread/INFO]: ilyasha has made the advancement [Stone Age]
+[10:58:17] [Server thread/INFO]: nagibator1233 drowned
+[10:58:23] [Server thread/INFO]: ilyasha has made the advancement [Monster Hunter]
+[10:58:51] [Async Chat Thread - #34/INFO]: <nagibator1233> -740 1233[m
+[10:59:08] [Async Chat Thread - #35/INFO]: <ilyasha> 133[m
+[11:02:43] [Server thread/INFO]: ilyasha has made the advancement [Getting an Upgrade]
+[11:07:35] [User Authenticator #15/INFO]: UUID of player docklandboy99 is 24958c56-a7d0-38be-8da4-10e5ff1023dc
+[11:07:35] [Server thread/INFO]: docklandboy99 joined the game
+[11:07:35] [Server thread/INFO]: docklandboy99[/178.218.103.183:17240] logged in with entity id 137606 at ([world]11.5, 70.0, 70.5)
+[11:07:52] [Craft Scheduler Thread - 517/INFO]: [AuthMe] The user docklandboy99 has 2 accounts:
+[11:07:52] [Server thread/INFO]: [AuthMe] docklandboy99 registered 178.218.103.183
+[11:07:52] [Craft Scheduler Thread - 517/INFO]: [AuthMe] §7§ailyasha§7, §adocklandboy99§7.
+[11:07:52] [Craft Scheduler Thread - 517/INFO]: [AuthMe] docklandboy99 logged in 178.218.103.183
+[11:07:55] [Async Chat Thread - #37/INFO]: <docklandboy99> чё вы лохи ёпта[m
+[11:08:00] [Async Chat Thread - #36/INFO]: <docklandboy99> дудос атака[m
+[11:08:07] [Async Chat Thread - #37/INFO]: <ilyasha> себя задудсо ьофощ[m
+[11:08:13] [Async Chat Thread - #36/INFO]: <docklandboy99> да я тьвю мть ебал[m
+[11:08:25] [Async Chat Thread - #37/INFO]: <ilyasha> слыш, мать не трогай хуесо сиеща бялть тупое[m
+[11:08:34] [Async Chat Thread - #36/INFO]: <docklandboy99> э, гандон, ебало офни своё, шавка[m
+[11:08:37] [Async Chat Thread - #37/INFO]: <ilyasha> соси хуй[m
+[11:08:52] [Async Chat Thread - #36/INFO]: <docklandboy99> слсие хуй уёбки вы все[m
+[11:08:57] [Async Chat Thread - #37/INFO]: <docklandboy99> нагибатор главный гандон[m
+[11:08:59] [Async Chat Thread - #36/INFO]: <docklandboy99> пока[m
+[11:08:59] [Server thread/INFO]: docklandboy99 lost connection: Disconnected
+[11:08:59] [Server thread/INFO]: docklandboy99 left the game
+[11:12:46] [Server thread/INFO]: ilyasha has made the advancement [Suit Up]
+[11:12:48] [Server thread/INFO]: nagibator1233 has reached the goal [Sky's the Limit]
+[11:14:53] [Server thread/INFO]: ilyasha has made the advancement [Cover Me with Diamonds]
+[11:15:31] [Server thread/INFO]: ilyasha has made the advancement [Sweet Dreams]
+[11:24:48] [User Authenticator #16/INFO]: UUID of player ilyasha is 192355e3-f0a1-377e-9eaf-b02b35bc6a7c
+[11:24:48] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@118ad845[id=192355e3-f0a1-377e-9eaf-b02b35bc6a7c,name=ilyasha,properties={},legacy=false] (/178.218.103.183:16425): §4Игрок с данным именем уже играет на сервере!
+[11:24:48] [Server thread/INFO]: com.mojang.authlib.GameProfile@118ad845[id=192355e3-f0a1-377e-9eaf-b02b35bc6a7c,name=ilyasha,properties={},legacy=false] (/178.218.103.183:16425) lost connection: §4Игрок с данным именем уже играет на сервере!
+[11:24:48] [Server thread/WARN]: handleDisconnection() called twice
+[11:24:53] [Server thread/INFO]: ilyasha lost connection: Timed out
+[11:24:53] [Server thread/INFO]: ilyasha left the game.
+[11:24:53] [Server thread/WARN]: handleDisconnection() called twice
+[11:24:58] [User Authenticator #17/INFO]: UUID of player ilyasha is 192355e3-f0a1-377e-9eaf-b02b35bc6a7c
+[11:24:58] [Server thread/INFO]: ilyasha joined the game
+[11:24:58] [Server thread/INFO]: ilyasha[/178.218.103.183:16439] logged in with entity id 141840 at ([world]-1319.6845273299575, 61.99486432313918, 1523.419734281899)
+[11:24:58] [Craft Scheduler Thread - 522/INFO]: [AuthMe] The user ilyasha has 2 accounts:
+[11:24:58] [Craft Scheduler Thread - 522/INFO]: [AuthMe] §7§ailyasha§7, docklandboy99.
+[11:24:58] [Craft Scheduler Thread - 522/INFO]: [AuthMe] ilyasha logged in 178.218.103.183
+[11:25:01] [Server thread/INFO]: nagibator1233 lost connection: Disconnected
+[11:25:01] [Server thread/INFO]: nagibator1233 left the game
+[11:34:48] [Server thread/INFO]: ilyasha issued server command: /kill
+[11:43:41] [Server thread/INFO]: ilyasha has made the advancement [Diamonds!]
+[11:44:37] [Server thread/INFO]: ilyasha lost connection: Disconnected
+[11:44:37] [Server thread/INFO]: ilyasha left the game
+[12:26:08] [User Authenticator #18/INFO]: UUID of player BceMFredner is a9abc6b1-0fd3-3ec3-bfea-2f8509990cfc
+[12:26:09] [Server thread/INFO]: BceMFredner joined the game
+[12:26:09] [Server thread/INFO]: BceMFredner[/92.248.237.84:52394] logged in with entity id 145935 at ([world]-779.6854761712815, 63.0, 1208.7298803594188)
+[12:26:22] [Craft Scheduler Thread - 535/INFO]: [AuthMe] BceMFredner logged in 92.248.237.84
+[12:47:54] [Server thread/INFO]: BceMFredner issued server command: /teammsg
+[12:47:59] [Server thread/INFO]: BceMFredner issued server command: /teammsg 2
+[13:07:37] [Server thread/INFO]: BceMFredner was shot by Skeleton
+[13:20:54] [Server thread/INFO]: BceMFredner was slain by Zombie
+[13:21:01] [User Authenticator #19/INFO]: UUID of player nagibator1233 is fa644ef3-c244-3b7c-a967-c5ffd116fe8a
+[13:21:01] [Server thread/INFO]: nagibator1233 joined the game
+[13:21:01] [Server thread/INFO]: nagibator1233[/92.248.201.84:60630] logged in with entity id 160355 at ([world]-1321.2620605911081, 63.08576431274413, 1524.4089762103622)
+[13:21:05] [Async Chat Thread - #38/INFO]: <BceMFredner> помоги[m
+[13:21:08] [Async Chat Thread - #38/INFO]: <BceMFredner> я опять на спавне[m
+[13:21:09] [Craft Scheduler Thread - 546/INFO]: [AuthMe] nagibator1233 logged in 92.248.201.84
+[13:21:14] [Async Chat Thread - #39/INFO]: <nagibator1233> Всем привет![m
+[13:22:22] [Async Chat Thread - #40/INFO]: <nagibator1233> что делаешь?[m
+[13:22:24] [Async Chat Thread - #41/INFO]: <BceMFredner> помоги[m
+[13:22:25] [Async Chat Thread - #41/INFO]: <BceMFredner> я опять на спавне[m
+[13:22:29] [Async Chat Thread - #40/INFO]: <nagibator1233> чем?[m
+[13:22:45] [Async Chat Thread - #41/INFO]: <BceMFredner> спавнпоинт мне дома пропиши[m
+[13:22:56] [Async Chat Thread - #40/INFO]: <nagibator1233> а где он у тебя?:[m
+[13:23:00] [Async Chat Thread - #41/INFO]: <BceMFredner> на спавне[m
+[13:23:00] [Async Chat Thread - #40/INFO]: <nagibator1233> на кровати поспи[m
+[13:23:55] [Server thread/INFO]: nagibator1233 drowned
+[13:25:02] [Server thread/INFO]: BceMFredner drowned
+[13:25:08] [Async Chat Thread - #42/INFO]: <nagibator1233> ты че[m
+[13:25:08] [Async Chat Thread - #43/INFO]: <BceMFredner> где?[m
+[13:25:11] [Async Chat Thread - #43/INFO]: <BceMFredner> домой как[m
+[13:25:17] [Async Chat Thread - #42/INFO]: <nagibator1233> стой[m
+[13:25:23] [Async Chat Thread - #43/INFO]: <nagibator1233> а тебя заспавнило ?[m
+[13:25:28] [Async Chat Thread - #42/INFO]: <BceMFredner> на спавне[m
+[13:25:43] [Async Chat Thread - #43/INFO]: <nagibator1233> короче беги, я сейчас два плагина поставлю[m
+[13:25:49] [Async Chat Thread - #42/INFO]: <BceMFredner> ааааааааааааааааааааааааа[m
+[13:25:53] [Async Chat Thread - #43/INFO]: <BceMFredner> ну тп к себе[m
+[13:25:54] [Async Chat Thread - #42/INFO]: <BceMFredner> хотя бы[m
+[13:26:24] [Server thread/INFO]: BceMFredner was shot by BceMFredner
+[13:26:50] [Server thread/INFO]: BceMFredner hit the ground too hard whilst trying to escape BceMFredner
+[13:27:35] [Server thread/INFO]: BceMFredner was shot by BceMFredner
+[13:27:54] [Server thread/INFO]: BceMFredner was burnt to a crisp whilst fighting BceMFredner
+[13:28:14] [Async Chat Thread - #45/INFO]: <nagibator1233> сейчас тпну[m
+[13:28:15] [Server thread/INFO]: BceMFredner was slain by Spider
+[13:28:19] [Async Chat Thread - #44/INFO]: <nagibator1233> навенрео)[m
+[13:28:49] [Server thread/INFO]: BceMFredner was shot by BceMFredner
+[13:29:21] [Server thread/INFO]: BceMFredner was impaled by BceMFredner
+[13:29:41] [Async Chat Thread - #46/INFO]: <BceMFredner> Э[m
+[13:29:46] [Async Chat Thread - #46/INFO]: <BceMFredner> У МЕНЯ ТРЕЗУБЕЦ ПРОПАЛ[m
+[13:29:53] [Async Chat Thread - #46/INFO]: <BceMFredner> ДОИГРАЛСЯ[m
+[13:30:20] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+[13:30:20] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
+[13:30:20] [Server thread/INFO]: [0;37;22m[0;33;22mAliases: [0;37;1mLists command aliases[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22mAuthMe: [0;37;1mAll commands for AuthMe[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/advancement: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/attribute: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/authme: [0;37;1mAuthMe op commands[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/ban: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/bossbar: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/captcha: [0;37;1mCaptcha command[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/changepassword: [0;37;1mChange password of an account[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/clear: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/clone: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/data: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/datapack: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/debug: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/deop: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/effect: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/email: [0;37;1mAdd email or recover password[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/enchant: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/execute: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/experience: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/fill: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/fillbiome: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/forceload: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/function: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/gamemode: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/give: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/help: [0;37;1mShows the help menu[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/item: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/jfr: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/kick: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/kill: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/list: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/locate: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/login: [0;37;1mLogin command[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/logout: [0;37;1mLogout command[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/loot: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/me: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:reload: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/msg: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/op: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/pardon: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/particle: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/perf: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/place: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/recipe: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/register: [0;37;1mRegister an account[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/restart: [0;37;1mRestarts the server[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/say: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/schedule: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/seed: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/spectate: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/spigot: [0;37;1mSpigot related commands[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/stop: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/stopsound: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/summon: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/tag: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/team: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/teammsg: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/teleport: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/tell: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/time: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/timings: [0;37;1mManages Spigot Timings data to see performance of the server.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/title: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/tm: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/totp: [0;37;1mTOTP commands[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/tp: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/unregister: [0;37;1mUnregister an account[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/verification: [0;37;1mVerification command[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/w: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/weather: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
+[13:30:20] [Server thread/INFO]: [0;37;1m[0;33;22m/xp: [0;37;1mA Mojang provided command.[m
+[13:30:40] [Server thread/INFO]: Teleported BceMFredner to nagibator1233
+[13:30:42] [Async Chat Thread - #46/INFO]: <BceMFredner> О[m
+[13:30:55] [Server thread/INFO]: Set spawn point to 16, 70, 80 [0.0] in minecraft:overworld for BceMFredner
+[13:31:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[13:31:09] [Server thread/INFO]: Invalid name or UUID
+[13:31:09] [Server thread/INFO]: msg Поставил спавн<--[HERE]
+[13:31:20] [Server thread/INFO]: You whisper to BceMFredner: Поставил спавн
+[13:31:55] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[13:31:55] [Server thread/INFO]: title<--[HERE]
+[13:31:59] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[13:31:59] [Server thread/INFO]: title help<--[HERE]
+[13:32:01] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+[13:32:01] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
+[13:32:01] [Server thread/INFO]: [0;37;22m[0;33;22mAliases: [0;37;1mLists command aliases[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22mAuthMe: [0;37;1mAll commands for AuthMe[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/advancement: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/attribute: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/authme: [0;37;1mAuthMe op commands[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/ban: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/bossbar: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/captcha: [0;37;1mCaptcha command[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/changepassword: [0;37;1mChange password of an account[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/clear: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/clone: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/data: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/datapack: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/debug: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/deop: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/effect: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/email: [0;37;1mAdd email or recover password[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/enchant: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/execute: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/experience: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/fill: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/fillbiome: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/forceload: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/function: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/gamemode: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/give: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/help: [0;37;1mShows the help menu[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/item: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/jfr: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/kick: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/kill: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/list: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/locate: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/login: [0;37;1mLogin command[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/logout: [0;37;1mLogout command[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/loot: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/me: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:reload: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/msg: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/op: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/pardon: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/particle: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/perf: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/place: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/recipe: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/register: [0;37;1mRegister an account[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/restart: [0;37;1mRestarts the server[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/say: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/schedule: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/seed: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/spectate: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/spigot: [0;37;1mSpigot related commands[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/stop: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/stopsound: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/summon: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/tag: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/team: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/teammsg: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/teleport: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/tell: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/time: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/timings: [0;37;1mManages Spigot Timings data to see performance of the server.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/title: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/tm: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/totp: [0;37;1mTOTP commands[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/tp: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/unregister: [0;37;1mUnregister an account[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/verification: [0;37;1mVerification command[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/w: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/weather: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
+[13:32:01] [Server thread/INFO]: [0;37;1m[0;33;22m/xp: [0;37;1mA Mojang provided command.[m
+[13:32:10] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[13:32:10] [Server thread/INFO]: tag<--[HERE]
+[13:32:15] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[13:32:20] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[13:32:20] [Server thread/INFO]: tag 1<--[HERE]
+[13:32:28] [Server thread/INFO]: [Not Secure] [Server] 1
+[13:32:33] [Server thread/INFO]: nagibator1233 has made the advancement [Surge Protector]
+[13:32:33] [Server thread/INFO]: BceMFredner has made the advancement [Surge Protector]
+[13:32:33] [Server thread/INFO]: [Not Secure] [Server] Устанавливаю плагины?
+[13:32:37] [Async Chat Thread - #48/INFO]: <BceMFredner> а?...[m
+[13:32:47] [Server thread/INFO]: [Not Secure] [Server] Сервер надо будет вырубить
+[13:32:48] [Async Chat Thread - #49/INFO]: <BceMFredner> аааа???...[m
+[13:32:58] [Server thread/INFO]: nagibator1233 was shot by BceMFredner
+[13:33:00] [Async Chat Thread - #49/INFO]: <BceMFredner> давай)[m
+[13:33:04] [Server thread/INFO]: BceMFredner fell out of the world
+[13:33:04] [Server thread/INFO]: Killed BceMFredner
+[13:33:07] [Async Chat Thread - #49/INFO]: <BceMFredner> ай[m
+[13:33:11] [Server thread/INFO]: Stopping the server
+[13:33:11] [Server thread/INFO]: Stopping server
+[13:33:11] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-SNAPSHOT-b2597
+[13:33:11] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[13:33:11] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Shutdown initiated...
+[13:33:11] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Shutdown completed.
+[13:33:11] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT-b2597 disabled!
+[13:33:11] [Server thread/INFO]: Saving players
+[13:33:11] [Server thread/INFO]: nagibator1233 lost connection: Server closed
+[13:33:11] [Server thread/INFO]: nagibator1233 left the game.
+[13:33:11] [Server thread/INFO]: BceMFredner lost connection: Server closed
+[13:33:11] [Server thread/INFO]: BceMFredner left the game.
+[13:33:11] [Server thread/INFO]: Saving worlds
+[13:33:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:33:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:33:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:33:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:33:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:33:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:33:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

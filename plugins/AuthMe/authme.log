@@ -63,3 +63,437 @@ Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.bukkit.Server.getS
 
 [02-27 13:03:54]: [WARN] THE SERVER IS GOING TO SHUT DOWN AS DEFINED IN THE CONFIGURATION!
 [02-27 13:03:54]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[02-27 14:02:31]: [INFO] Connection arguments loaded, Hikari ConnectionPool ready!
+[02-27 14:02:33]: [WARN] Can't initialize the MySQL database: [SQLException]: Access denied for user 'www'@'localhost' (using password: YES)
+[02-27 14:02:33]: java.sql.SQLException: Access denied for user 'www'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at fr.xephi.authme.libs.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at fr.xephi.authme.libs.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at fr.xephi.authme.libs.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:375)
+	at fr.xephi.authme.libs.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:204)
+	at fr.xephi.authme.libs.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:445)
+	at fr.xephi.authme.libs.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:516)
+	at fr.xephi.authme.libs.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:116)
+	at fr.xephi.authme.libs.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:97)
+	at fr.xephi.authme.datasource.MySQL.getConnection(MySQL.java:157)
+	at fr.xephi.authme.datasource.MySQL.checkTablesAndColumns(MySQL.java:164)
+	at fr.xephi.authme.datasource.MySQL.<init>(MySQL.java:69)
+	at fr.xephi.authme.initialization.DataSourceProvider.createDataSource(DataSourceProvider.java:72)
+	at fr.xephi.authme.initialization.DataSourceProvider.get(DataSourceProvider.java:49)
+	at fr.xephi.authme.initialization.DataSourceProvider.get(DataSourceProvider.java:26)
+	at fr.xephi.authme.libs.jalu.injector.handlers.provider.ProviderHandlerImpl$UninitializedProviderInstantiation.instantiateWith(ProviderHandlerImpl.java:141)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:181)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.getSingleton(InjectorImpl.java:56)
+	at fr.xephi.authme.AuthMe.instantiateServices(AuthMe.java:246)
+	at fr.xephi.authme.AuthMe.initialize(AuthMe.java:221)
+	at fr.xephi.authme.AuthMe.onEnable(AuthMe.java:136)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugin(CraftServer.java:539)
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugins(CraftServer.java:453)
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:587)
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:412)
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973)
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:301)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[02-27 14:02:33]: [WARN] Please check your database settings in the config.yml file!
+[02-27 14:02:33]: [WARN] Could not create data source: [SQLException]: Access denied for user 'www'@'localhost' (using password: YES)
+[02-27 14:02:33]: java.sql.SQLException: Access denied for user 'www'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at fr.xephi.authme.libs.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at fr.xephi.authme.libs.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at fr.xephi.authme.libs.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:375)
+	at fr.xephi.authme.libs.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:204)
+	at fr.xephi.authme.libs.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:445)
+	at fr.xephi.authme.libs.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:516)
+	at fr.xephi.authme.libs.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:116)
+	at fr.xephi.authme.libs.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:97)
+	at fr.xephi.authme.datasource.MySQL.getConnection(MySQL.java:157)
+	at fr.xephi.authme.datasource.MySQL.checkTablesAndColumns(MySQL.java:164)
+	at fr.xephi.authme.datasource.MySQL.<init>(MySQL.java:69)
+	at fr.xephi.authme.initialization.DataSourceProvider.createDataSource(DataSourceProvider.java:72)
+	at fr.xephi.authme.initialization.DataSourceProvider.get(DataSourceProvider.java:49)
+	at fr.xephi.authme.initialization.DataSourceProvider.get(DataSourceProvider.java:26)
+	at fr.xephi.authme.libs.jalu.injector.handlers.provider.ProviderHandlerImpl$UninitializedProviderInstantiation.instantiateWith(ProviderHandlerImpl.java:141)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:181)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.getSingleton(InjectorImpl.java:56)
+	at fr.xephi.authme.AuthMe.instantiateServices(AuthMe.java:246)
+	at fr.xephi.authme.AuthMe.initialize(AuthMe.java:221)
+	at fr.xephi.authme.AuthMe.onEnable(AuthMe.java:136)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugin(CraftServer.java:539)
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugins(CraftServer.java:453)
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:587)
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:412)
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973)
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:301)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[02-27 14:02:33]: [WARN] Aborting initialization of AuthMe: [IllegalStateException]: Error during initialization of data source
+[02-27 14:02:33]: java.lang.IllegalStateException: Error during initialization of data source
+	at fr.xephi.authme.initialization.DataSourceProvider.get(DataSourceProvider.java:52)
+	at fr.xephi.authme.initialization.DataSourceProvider.get(DataSourceProvider.java:26)
+	at fr.xephi.authme.libs.jalu.injector.handlers.provider.ProviderHandlerImpl$UninitializedProviderInstantiation.instantiateWith(ProviderHandlerImpl.java:141)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:181)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.getSingleton(InjectorImpl.java:56)
+	at fr.xephi.authme.AuthMe.instantiateServices(AuthMe.java:246)
+	at fr.xephi.authme.AuthMe.initialize(AuthMe.java:221)
+	at fr.xephi.authme.AuthMe.onEnable(AuthMe.java:136)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugin(CraftServer.java:539)
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugins(CraftServer.java:453)
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:587)
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:412)
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973)
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:301)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLException: Access denied for user 'www'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at fr.xephi.authme.libs.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at fr.xephi.authme.libs.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at fr.xephi.authme.libs.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:375)
+	at fr.xephi.authme.libs.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:204)
+	at fr.xephi.authme.libs.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:445)
+	at fr.xephi.authme.libs.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:516)
+	at fr.xephi.authme.libs.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:116)
+	at fr.xephi.authme.libs.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:97)
+	at fr.xephi.authme.datasource.MySQL.getConnection(MySQL.java:157)
+	at fr.xephi.authme.datasource.MySQL.checkTablesAndColumns(MySQL.java:164)
+	at fr.xephi.authme.datasource.MySQL.<init>(MySQL.java:69)
+	at fr.xephi.authme.initialization.DataSourceProvider.createDataSource(DataSourceProvider.java:72)
+	at fr.xephi.authme.initialization.DataSourceProvider.get(DataSourceProvider.java:49)
+	... 19 more
+
+[02-27 14:02:33]: [WARN] THE SERVER IS GOING TO SHUT DOWN AS DEFINED IN THE CONFIGURATION!
+[02-27 14:02:33]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[02-27 14:08:54]: [INFO] Connection arguments loaded, Hikari ConnectionPool ready!
+[02-27 14:08:55]: [INFO] Created column 'regdate' and set the current timestamp, 1677506935356, to all 0 rows
+[02-27 14:08:55]: [INFO] MySQL setup finished
+[02-27 14:08:55]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 14:08:55]: [WARN] Aborting initialization of AuthMe: [InjectorReflectionException]: Could not invoke constructor of class 'class fr.xephi.authme.command.CommandHandler'
+[02-27 14:08:55]: fr.xephi.authme.libs.jalu.injector.exceptions.InjectorReflectionException: Could not invoke constructor of class 'class fr.xephi.authme.command.CommandHandler'
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:94)
+	at fr.xephi.authme.libs.jalu.injector.handlers.instantiation.StandardInjection.instantiateWith(StandardInjection.java:62)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:181)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.getSingleton(InjectorImpl.java:56)
+	at fr.xephi.authme.AuthMe.instantiateServices(AuthMe.java:248)
+	at fr.xephi.authme.AuthMe.initialize(AuthMe.java:221)
+	at fr.xephi.authme.AuthMe.onEnable(AuthMe.java:136)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugin(CraftServer.java:539)
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugins(CraftServer.java:453)
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:587)
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:412)
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973)
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:301)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:91)
+	... 18 more
+Caused by: fr.xephi.authme.libs.jalu.injector.exceptions.InjectorReflectionException: Could not invoke constructor of class 'class fr.xephi.authme.mail.EmailService'
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:94)
+	at fr.xephi.authme.libs.jalu.injector.handlers.instantiation.StandardInjection.instantiateWith(StandardInjection.java:62)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:181)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:208)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:177)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:208)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:177)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:208)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:177)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:208)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:177)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.newInstance(InjectorImpl.java:82)
+	at fr.xephi.authme.initialization.factory.FactoryDependencyHandler$FactoryImpl.newInstance(FactoryDependencyHandler.java:41)
+	at fr.xephi.authme.command.CommandHandler.initializeCommands(CommandHandler.java:109)
+	at fr.xephi.authme.command.CommandHandler.<init>(CommandHandler.java:49)
+	... 24 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:91)
+	... 42 more
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.bukkit.Server.getServerName()'
+	at fr.xephi.authme.mail.EmailService.<init>(EmailService.java:33)
+	... 48 more
+
+[02-27 14:08:55]: [WARN] THE SERVER IS GOING TO SHUT DOWN AS DEFINED IN THE CONFIGURATION!
+[02-27 14:08:55]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[02-27 14:14:24]: [INFO] Connection arguments loaded, Hikari ConnectionPool ready!
+[02-27 14:14:24]: [INFO] MySQL setup finished
+[02-27 14:14:25]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 14:14:25]: [WARN] Aborting initialization of AuthMe: [InjectorReflectionException]: Could not invoke constructor of class 'class fr.xephi.authme.command.CommandHandler'
+[02-27 14:14:25]: fr.xephi.authme.libs.jalu.injector.exceptions.InjectorReflectionException: Could not invoke constructor of class 'class fr.xephi.authme.command.CommandHandler'
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:94)
+	at fr.xephi.authme.libs.jalu.injector.handlers.instantiation.StandardInjection.instantiateWith(StandardInjection.java:62)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:181)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.getSingleton(InjectorImpl.java:56)
+	at fr.xephi.authme.AuthMe.instantiateServices(AuthMe.java:248)
+	at fr.xephi.authme.AuthMe.initialize(AuthMe.java:221)
+	at fr.xephi.authme.AuthMe.onEnable(AuthMe.java:136)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugin(CraftServer.java:539)
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugins(CraftServer.java:453)
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:587)
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:412)
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973)
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:301)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:91)
+	... 18 more
+Caused by: fr.xephi.authme.libs.jalu.injector.exceptions.InjectorReflectionException: Could not invoke constructor of class 'class fr.xephi.authme.mail.EmailService'
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:94)
+	at fr.xephi.authme.libs.jalu.injector.handlers.instantiation.StandardInjection.instantiateWith(StandardInjection.java:62)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:181)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:208)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:177)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.newInstance(InjectorImpl.java:82)
+	at fr.xephi.authme.initialization.factory.FactoryDependencyHandler$FactoryImpl.newInstance(FactoryDependencyHandler.java:41)
+	at fr.xephi.authme.command.CommandHandler.initializeCommands(CommandHandler.java:109)
+	at fr.xephi.authme.command.CommandHandler.<init>(CommandHandler.java:49)
+	... 24 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:91)
+	... 33 more
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.bukkit.Server.getServerName()'
+	at fr.xephi.authme.mail.EmailService.<init>(EmailService.java:33)
+	... 39 more
+
+[02-27 14:14:25]: [WARN] THE SERVER IS GOING TO SHUT DOWN AS DEFINED IN THE CONFIGURATION!
+[02-27 14:14:25]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[02-27 14:19:06]: [INFO] Connection arguments loaded, Hikari ConnectionPool ready!
+[02-27 14:19:07]: [INFO] MySQL setup finished
+[02-27 14:19:07]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 14:19:07]: [WARN] Aborting initialization of AuthMe: [InjectorReflectionException]: Could not invoke constructor of class 'class fr.xephi.authme.command.CommandHandler'
+[02-27 14:19:07]: fr.xephi.authme.libs.jalu.injector.exceptions.InjectorReflectionException: Could not invoke constructor of class 'class fr.xephi.authme.command.CommandHandler'
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:94)
+	at fr.xephi.authme.libs.jalu.injector.handlers.instantiation.StandardInjection.instantiateWith(StandardInjection.java:62)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:181)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.getSingleton(InjectorImpl.java:56)
+	at fr.xephi.authme.AuthMe.instantiateServices(AuthMe.java:248)
+	at fr.xephi.authme.AuthMe.initialize(AuthMe.java:221)
+	at fr.xephi.authme.AuthMe.onEnable(AuthMe.java:136)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugin(CraftServer.java:539)
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugins(CraftServer.java:453)
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:587)
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:412)
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973)
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:301)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:91)
+	... 18 more
+Caused by: fr.xephi.authme.libs.jalu.injector.exceptions.InjectorReflectionException: Could not invoke constructor of class 'class fr.xephi.authme.mail.EmailService'
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:94)
+	at fr.xephi.authme.libs.jalu.injector.handlers.instantiation.StandardInjection.instantiateWith(StandardInjection.java:62)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:181)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:208)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:177)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:208)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:177)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:208)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:177)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:208)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:177)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.newInstance(InjectorImpl.java:82)
+	at fr.xephi.authme.initialization.factory.FactoryDependencyHandler$FactoryImpl.newInstance(FactoryDependencyHandler.java:41)
+	at fr.xephi.authme.command.CommandHandler.initializeCommands(CommandHandler.java:109)
+	at fr.xephi.authme.command.CommandHandler.<init>(CommandHandler.java:49)
+	... 24 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:91)
+	... 42 more
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.bukkit.Server.getServerName()'
+	at fr.xephi.authme.mail.EmailService.<init>(EmailService.java:33)
+	... 48 more
+
+[02-27 14:19:07]: [WARN] THE SERVER IS GOING TO SHUT DOWN AS DEFINED IN THE CONFIGURATION!
+[02-27 14:19:07]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[02-27 14:21:54]: [INFO] Connection arguments loaded, Hikari ConnectionPool ready!
+[02-27 14:21:54]: [INFO] MySQL setup finished
+[02-27 14:21:55]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 14:21:55]: [INFO] Old keys have been moved to the new ones in your messages_xx.yml file
+[02-27 14:21:55]: [INFO] Added 22 missing keys to your messages_xx.yml file: [error.kick_unresolved_hostname, on_join_validation.quick_command, email.add_not_allowed, email.change_not_allowed, captcha.captcha_for_registration, captcha.register_captcha_valid, verification.code_required, verification.command_usage, verification.incorrect_code, verification.success, verification.already_verified, verification.code_expired, verification.email_needed, two_factor.confirmation_required, two_factor.code_required, two_factor.already_enabled, two_factor.enable_error_no_code, two_factor.enable_success, two_factor.enable_error_wrong_code, two_factor.not_enabled_error, two_factor.removed_success, two_factor.invalid_code]
+[02-27 14:21:55]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 14:21:55]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.2597 successfully enabled!
+[02-27 14:21:55]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-27 14:21:55]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-27 14:21:55]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-27 14:21:55]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[02-27 14:21:55]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:344)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:213)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_19_R2.scheduler.CraftTask.run(CraftTask.java:82)
+	at org.bukkit.craftbukkit.v1_19_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[02-27 14:22:45]: [FINE] nagibator1233 registered 92.248.201.84
+[02-27 14:22:45]: [FINE] nagibator1233 logged in 92.248.201.84
+[02-27 14:24:44]: [FINE] nagibator1233 logged in 92.248.201.84
+[02-27 14:25:23]: [FINE] BceMFredner registered 92.248.237.84
+[02-27 14:25:23]: [FINE] BceMFredner logged in 92.248.237.84
+[02-27 14:25:29]: [FINE] nagibator1233 logged in 92.248.201.84
+[02-27 14:36:00]: [FINE] nagibator1233 logged in 92.248.201.84
+[02-27 14:36:18]: [INFO] AuthMe 5.6.0-SNAPSHOT-b2597 disabled!
+[02-27 14:37:10]: [INFO] Connection arguments loaded, Hikari ConnectionPool ready!
+[02-27 14:37:10]: [INFO] MySQL setup finished
+[02-27 14:37:10]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 14:37:10]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 14:37:11]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.2597 successfully enabled!
+[02-27 14:37:11]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-27 14:37:11]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-27 14:37:11]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-27 14:37:11]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[02-27 14:37:11]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:344)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:213)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_19_R2.scheduler.CraftTask.run(CraftTask.java:82)
+	at org.bukkit.craftbukkit.v1_19_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[02-27 14:37:34]: [FINE] nagibator1233 logged in 92.248.201.84
+[02-27 14:37:47]: [FINE] BceMFredner logged in 92.248.237.84
+[02-27 15:42:44]: [FINE] BceMFredner logged in 92.248.237.84
+[02-27 16:28:43]: [INFO] AuthMe 5.6.0-SNAPSHOT-b2597 disabled!
+[02-27 16:30:20]: [INFO] Connection arguments loaded, Hikari ConnectionPool ready!
+[02-27 16:30:21]: [INFO] MySQL setup finished
+[02-27 16:30:21]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-27 16:30:21]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-27 16:30:21]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.2597 successfully enabled!
+[02-27 16:30:21]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-27 16:30:21]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-27 16:30:21]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-27 16:30:21]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[02-27 16:30:21]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:344)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:213)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_19_R2.scheduler.CraftTask.run(CraftTask.java:82)
+	at org.bukkit.craftbukkit.v1_19_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[02-27 17:27:58]: [FINE] BceMFredner logged in 92.248.237.84
+[02-27 17:36:47]: [FINE] nagibator1233 logged in 92.248.201.84
+[02-28 03:51:29]: [FINE] nagibator1233 logged in 92.248.201.84
+[02-28 04:45:59]: [FINE] nagibator1233 logged in 92.248.201.84
+[02-28 13:16:51]: [FINE] BceMFredner logged in 92.248.237.84
+[02-28 13:24:22]: [FINE] nagibator1233 logged in 92.248.201.84
+[02-28 13:34:13]: [FINE] nagibator1233 logged in 92.248.201.84
+[02-28 13:34:39]: [FINE] nagibator1233 logged in 92.248.201.84
+[02-28 13:35:07]: [FINE] nagibator1233 logged in 92.248.201.84
+[02-28 13:35:18]: [FINE] nagibator1233 logged in 92.248.201.84
+[03-01 04:53:45]: [FINE] nagibator1233 logged in 92.248.201.84
+[03-01 08:55:05]: [FINE] nagibator1233 logged in 92.248.201.84
+[03-01 10:29:31]: [FINE] nagibator1233 logged in 92.248.201.84
+[03-01 10:56:26]: [FINE] ilyasha registered 178.218.103.183
+[03-01 10:56:26]: [FINE] ilyasha logged in 178.218.103.183
+[03-01 11:07:52]: [FINE] docklandboy99 registered 178.218.103.183
+[03-01 11:07:52]: [FINE] The user docklandboy99 has 2 accounts:
+[03-01 11:07:52]: [FINE] §7§ailyasha§7, §adocklandboy99§7.
+[03-01 11:07:52]: [FINE] docklandboy99 logged in 178.218.103.183
+[03-01 11:24:58]: [FINE] The user ilyasha has 2 accounts:
+[03-01 11:24:58]: [FINE] §7§ailyasha§7, docklandboy99.
+[03-01 11:24:58]: [FINE] ilyasha logged in 178.218.103.183
+[03-01 12:26:22]: [FINE] BceMFredner logged in 92.248.237.84
+[03-01 13:21:09]: [FINE] nagibator1233 logged in 92.248.201.84
+[03-01 13:33:11]: [INFO] AuthMe 5.6.0-SNAPSHOT-b2597 disabled!
