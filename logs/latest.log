@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [04:53:31] [User Authenticator #11/INFO]: UUID of player nagibator1233 is fa644ef3-c244-3b7c-a967-c5ffd116fe8a
 [04:53:31] [Server thread/INFO]: nagibator1233 joined the game
 [04:53:31] [Server thread/INFO]: nagibator1233[/92.248.201.84:62555] logged in with entity id 105191 at ([world]-790.0491841032326, 64.0, 1237.6365115876656)
@@ -365,3 +366,19 @@
 [13:33:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
 [13:33:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
 [13:33:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+=======
+[06:53:55] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[06:53:55] [Server thread/INFO]: <--[HERE]
+[06:54:05] [Server thread/INFO]: Made nagibator1233 no longer a server operator
+[13:41:29] [Server thread/INFO]: Stopping the server
+[13:41:29] [Server thread/INFO]: Stopping server
+[13:41:29] [Server thread/INFO]: Saving players
+[13:41:29] [Server thread/INFO]: Saving worlds
+[13:41:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:41:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:41:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:41:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:41:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:41:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:41:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+>>>>>>> 34e66751dbd457c347a4eaab453b75a7cc6df885
